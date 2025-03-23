@@ -18,6 +18,6 @@ View the site at [plantstore-rbac.ferndocs.app](https://plantstore-rbac.ferndocs
 
 ## How to Configure RBAC for Your Own Docs
 
-1. Define your roles in `docs.yml`
-2. Add to the navigation in `docs.yml`
+1. Define your roles in [`fern/docs.yml`](fern/docs.yml)
+2. Add to the navigation in [`fern/docs.yml`](fern/docs.yml)
 3. Set up auth (requires contacting [Fern support](https://buildwithfern.com/learn#get-support))
