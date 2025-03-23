@@ -12,3 +12,6 @@ This website builds off of the [Docs Starter](https://github.com/fern-api/docs-s
 
 Key file of interest:
 - `fern/docs.yml` - the configuration file for the docs that contains RBAC roles and viewer permissions
+
+
+View the site --> [plantstore-rbac.ferndocs.app](https://plantstore-rbac.ferndocs.app)
