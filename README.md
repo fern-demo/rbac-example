@@ -9,3 +9,6 @@
 # Docs RBAC Demo
 
 This website builds off of the [Docs Starter](https://github.com/fern-api/docs-starter) template and is a demo for the [RBAC](https://buildwithfern.com/learn/docs/building-and-customizing-your-docs/rbac) feature.
+
+Key file of interest:
+- `fern/docs.yml` - the configuration file for the docs that contains RBAC roles and viewer permissions
