@@ -3,8 +3,8 @@
   <a href="https://www.buildwithfern.com/?utm_source=github&utm_medium=readme&utm_campaign=docs-starter-openapi&utm_content=logo">
     <img src="/fern/docs/assets/fern-logo.png" height="50" align="center" alt="header" />
   </a>
-  
   <br/>
+</div>
 
 # Docs RBAC Demo
 
