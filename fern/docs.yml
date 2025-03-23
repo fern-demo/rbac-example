@@ -5,9 +5,9 @@ instances:
 
 roles:
   - everyone # this is a special role that includes all users, whether they are logged in or not
-  - partners
-  - beta-users
-  - admins
+  - partner
+  - beta-user
+  - admin
 
 navigation:
   - section: Get Started
@@ -23,16 +23,17 @@ navigation:
         path: docs/pages/sdks.mdx
         slug: sdks
         viewers:
-          - beta-users # this page is only visible to beta-users
+          - beta-user # this page is only visible to beta-users
       - page: How we bill users
         path: docs/pages/billing.mdx
         viewers:
-          - admins
+          - admin
+      - changelog: docs/changelog
   - api: API Reference
     viewers:
-      - partners
-      - beta-users
-      - admins
+      - partner
+      - beta-user
+      - admin
 
 navbar-links:
   - type: minimal
