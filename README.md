@@ -11,7 +11,12 @@
 This website builds off of the [Docs Starter](https://github.com/fern-api/docs-starter) template and is a demo for the [RBAC](https://buildwithfern.com/learn/docs/building-and-customizing-your-docs/rbac) feature.
 
 Key file of interest:
-- `fern/docs.yml` - the configuration file for the docs that contains RBAC roles and viewer permissions
-
+- `fern/docs.yml` --> the configuration file for the docs that contains RBAC roles and viewer permissions
 
 View the site --> [plantstore-rbac.ferndocs.app](https://plantstore-rbac.ferndocs.app)
+
+## How to configure RBAC for your own docs
+
+Step 1: Define your roles in `docs.yml`
+Step 2: Add to the navigation in `docs.yml`
+Step 3: Set up auth (requires contacting [Fern support](https://buildwithfern.com/learn#get-support))
