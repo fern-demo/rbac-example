@@ -1,15 +1,17 @@
 instances:
-  - url: plantstore.docs.buildwithfern.com # update this to {yourorg}.docs.buildwithfern.com
-    # custom-domain: plantstore.dev # specify your custom domain when you are ready to go live
+  - url: plantstore-rbac.docs.buildwithfern.com
+    custom-domain: plantstore-rbac.ferndocs.app
 
-title: Plant Store
-
-layout:
-  searchbar-placement: header
-  page-width: full
+roles:
+  - everyone # this is a special role that includes all users, whether they are logged in or not
+  - partners
+  - beta-users
+  - admins
 
 navigation:
   - section: Get Started
+    viewers:
+      - everyone
     contents:
       - page: Welcome
         path: docs/pages/welcome.mdx
@@ -18,7 +20,15 @@ navigation:
       - page: SDKs
         path: docs/pages/sdks.mdx
         slug: sdks
+      - page: How we bill users 
+        path: docs/pages/billing.mdx
+        viewers:
+          - admins
   - api: API Reference
+    viewers:
+      - partners
+      - beta-users
+      - admins
 
 navbar-links:
   - type: minimal
@@ -42,3 +52,9 @@ logo:
   href: https://buildwithfern.com/?utm_campaign=demo&utm_medium=plantstore&utm_source=logo
 
 favicon: docs/assets/favicon.svg
+
+title: Plant Store RBAC
+
+layout:
+  searchbar-placement: header
+  page-width: full
