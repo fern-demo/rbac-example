@@ -1,22 +1,25 @@
-<br/>
+# Docs RBAC Demo
+
 <div align="center">
   <a href="https://www.buildwithfern.com/?utm_source=github&utm_medium=readme&utm_campaign=docs-starter-openapi&utm_content=logo">
-    <img src="/fern/docs/assets/fern-logo.png" height="50" align="center" alt="header" />
+    <img src="/fern/docs/assets/fern-logo.png" height="50" alt="Fern Logo" />
   </a>
-  <br/>
 </div>
 
-# Docs RBAC Demo
+## Overview
 
 This website builds off of the [Docs Starter](https://github.com/fern-api/docs-starter) template and is a demo for the [RBAC](https://buildwithfern.com/learn/docs/building-and-customizing-your-docs/rbac) feature.
 
-Key file of interest:
-- `fern/docs.yml` --> the configuration file for the docs that contains RBAC roles and viewer permissions
+## Key Files
 
-View the site --> [plantstore-rbac.ferndocs.app](https://plantstore-rbac.ferndocs.app)
+- `fern/docs.yml` - The configuration file for the docs that contains RBAC roles and viewer permissions
 
-## How to configure RBAC for your own docs
+## Live Demo
 
-Step 1: Define your roles in `docs.yml`
-Step 2: Add to the navigation in `docs.yml`
-Step 3: Set up auth (requires contacting [Fern support](https://buildwithfern.com/learn#get-support))
+View the site at [plantstore-rbac.ferndocs.app](https://plantstore-rbac.ferndocs.app)
+
+## How to Configure RBAC for Your Own Docs
+
+1. Define your roles in `docs.yml`
+2. Add to the navigation in `docs.yml`
+3. Set up auth (requires contacting [Fern support](https://buildwithfern.com/learn#get-support))
