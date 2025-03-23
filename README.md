@@ -63,7 +63,11 @@ Note: you can set the expiration date of the token by adding the `exp` claim in 
 
 ### Secret
 
-In the demo application for `plantstore-rbac.ferndocs.app` the secret is: `BtoR10mgJjaQIsToN7rph7W+NCTdA0wUPYMQNwIGo7k=`. Keep the encoding format as `Base64`.
+In the demo application for `plantstore-rbac.ferndocs.app` the secret is:
+```
+BtoR10mgJjaQIsToN7rph7W+NCTdA0wUPYMQNwIGo7k=
+```
+Note: Keep the encoding format as `Base64`.
 
 ### Testing multiple roles with `plantstore-rbac.ferndocs.app`:
 
