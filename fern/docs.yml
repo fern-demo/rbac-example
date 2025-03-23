@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
 instances:
   - url: plantstore-rbac.docs.buildwithfern.com
     custom-domain: plantstore-rbac.ferndocs.app
@@ -11,16 +12,19 @@ roles:
 navigation:
   - section: Get Started
     viewers:
-      - everyone
+      - everyone # pages under this section are visible to non-authed users
     contents:
       - page: Welcome
         path: docs/pages/welcome.mdx
       - page: Concepts
         path: docs/pages/concepts.mdx
+        orphaned: true # this page is visible only to authed users (with any role)
       - page: SDKs
         path: docs/pages/sdks.mdx
         slug: sdks
-      - page: How we bill users 
+        viewers:
+          - beta-users # this page is only visible to beta-users
+      - page: How we bill users
         path: docs/pages/billing.mdx
         viewers:
           - admins
